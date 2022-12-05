@@ -1,0 +1,4 @@
+  When configuring the WiFi connection on Arduino, after completing the connection and when running the interruption based on timer, 
+the ESP32 would kept rebooting for every 4-5 seconds, and the error message stated that the core 0 and core 1 were corrupted. After 
+searching on line and seeking for help on forums, the problem was solved by clearing the flash memory before every uploading of Arduino
+code.
